@@ -1,8 +1,4 @@
-/*!
-    * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-    */
+
     (function ($) {
     "use strict"; // Start of use strict
 
@@ -54,3 +50,18 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+function removecake() {
+    var element1 = document.getElementById("cake");
+    element1.classList.add("d-none");
+    var element2 = document.getElementById("flower");
+    element2.classList.remove("d-none");
+  }
+
+  function removeflower() {
+    var element1 = document.getElementById("flower");
+    element1.classList.add("d-none");
+    var element2 = document.getElementById("cake");
+    element2.classList.remove("d-none");
+  }
